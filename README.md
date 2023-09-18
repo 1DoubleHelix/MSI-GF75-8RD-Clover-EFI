@@ -1,44 +1,40 @@
-### Clover boot efi usb build for msi GF75 thin 9SC
+# 微星 GF75 Thin 8RD 黑苹果 Clover EFI
 
-This is a copy of files from usb drive EFI partition, used to run already installed macos monterey
+基于 [Dimon70007](https://github.com/Dimon70007) 的项目修改，可启动 MacOS Monterey，附有 [MacOS 安装教程](https://1doublehelix.github.io/msi-gf75-hackintosh.html)
 
-#### Hardware 
+## 修改内容
 
-- Intel(R) Core(TM) i7-9750H CPU
-- Intel(R) UHD Graphics 630 & NVIDIA GeForce GTX 1650
-- Intel® Display Audio
-- Realtek High Definition Audio
-- 32G RAM (16GBX2)
-- 1Tb SATA ssd for Windows boot
-- 1Tb NVMe ssd for Mac OS Monterey boot
-- Realtek PCIe GbE Family Controller (RJ45)
-- Intel® Wireless-AC 9560 160MHz
-- Intel® Wireless Bluetooth®
-- 17.3" FHD (1920x1080), IPS-Level
-- Type-C USB3.2 Gen1
-- HDMI (4K @ 30Hz)
+- 升级到 Clover 5155
+- 添加主题 blackbc、Clover Bootcamp
+- 修改默认主题为 blackbc
 
-#### What works
+## 部分硬件
 
-- Intel UHD graphics only (no support for nvidia card)
-- HDMI video only (no audio)
-- onboard audio with microphone and headphones
-- samsung 980 nvme boot only with usb drive
-- hw monitor smc2
-- battery indication
-- USB ports 3.0 and type C
-- onboard keyboard and touchpad with voodoops2controller
-- keyboard hotkeys
-- display backlight, keyboard backlight
-- camera (enable/disable with hotkeys)
-- Intel wifi card works too
+- Intel Core i5-8300H
+- Intel UHD 630
+- NVIDIA GeForce GTX 1050ti
+- 16GB 内存（8GB*2）
+- 铠侠 RC20 500GB NVMe SSD
+- Realtek PCIe GbE 有线网卡
+- Intel AC 9462 无线网卡
 
-#### What does not work 
+## 工作正常
 
-- HDMI audio - have no time to fix this
-- Boot from nvme samsung 980 not find bootloader (only booting from usb flash bootloader with clover). may be driver needed
-- Type C port works only on usb 3.0 speed. may be repatch for usb ports needed
+- Intel UHD 630
+- HDMI 仅视频
+- 英特尔无线网卡
+- 有线麦克风和耳机
+- 显示器亮度调整
+- 电池信息
+- USB 3.0（包括 Type-C）
+- voodoops2controller 的板载键盘和触摸板
+- 摄像头（通过热键启用/禁用）
 
-Before copying this files to EFI folder on hard drive recommends to copy and run it from usb drive for testing
+## Bug
 
-Special thanks to [ErrorErrorError with his Guide](https://github.com/ErrorErrorError/msi-gs65-gs75-hackintosh)
+- HDMI 无音频
+- NVIDIA 独显不工作
+- 无法从三星 980 SSD 启动 Clover
+- Type C 端口仅在 USB 3.0 速度下工作
+
+复制到硬盘上的 EFI 文件夹之前，建议先在 U 盘上进行测试

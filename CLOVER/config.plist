@@ -30,132 +30,184 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
 					<data>X1BUUwE=</data>
 					<key>Replace</key>
 					<data>WlBUUwE=</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
 					<data>X1dBSwE=</data>
 					<key>Replace</key>
 					<data>WldBSwE=</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>RUMwXw==</data>
 					<key>Replace</key>
 					<data>RUNfXw==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change H_EC to EC</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>SF9FQw==</data>
 					<key>Replace</key>
 					<data>RUNfXw==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change EHC1 to EH01</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>RUhDMQ==</data>
 					<key>Replace</key>
 					<data>RUgwMQ==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change EHC2 to EH02</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>RUhDMg==</data>
 					<key>Replace</key>
 					<data>RUgwMg==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change EUSB to EH01</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>RVVTQg==</data>
 					<key>Replace</key>
 					<data>RUgwMQ==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change USBE to EH02</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>VVNCRQ==</data>
 					<key>Replace</key>
 					<data>RUgwMg==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change ECDV to EC</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>RUNEVg==</data>
 					<key>Replace</key>
 					<data>RUNfXw==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>R0ZYMA==</data>
 					<key>Replace</key>
 					<data>SUdQVQ==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>ACPI Patch</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>oAqTU1RBUwE=</data>
 					<key>Replace</key>
 					<data>oAqRCv8L//8=</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>X09TSQ==</data>
 					<key>Replace</key>
 					<data>WE9TSQ==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change LPC to LPCB</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>TFBDXw==</data>
 					<key>Replace</key>
 					<data>TFBDQg==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 			</array>
 		</dict>
@@ -378,7 +430,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>BGM</string>
+		<string>blackbc</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -418,16 +470,22 @@
 			<dict>
 				<key>Comment</key>
 				<string>MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>ILniAAAADzA=</data>
 				<key>Replace</key>
 				<data>ILniAAAAkJA=</data>
+				<key>Skip</key>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Disable panic kext logging on 10.13 release kernel (credit vit9696)</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -436,10 +494,14 @@
 				<string>10.13.x</string>
 				<key>Replace</key>
 				<data>igKEwOtE</data>
+				<key>Skip</key>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Disable panic kext logging on 10.14 release kernel (credit vit9696)</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -448,10 +510,14 @@
 				<string>10.14.x</string>
 				<key>Replace</key>
 				<data>igKEwOtC</data>
+				<key>Skip</key>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Disable panic kext logging on 10.13 Release kernel</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
@@ -460,10 +526,14 @@
 				<string>10.13</string>
 				<key>Replace</key>
 				<data>igKEwOtE</data>
+				<key>Skip</key>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Disable panic kext logging on 10.14 Release kernel</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
@@ -476,10 +546,14 @@
 				<string>10.14</string>
 				<key>Replace</key>
 				<data>igKEwOtC</data>
+				<key>Skip</key>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Lapic panic patch example</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
@@ -496,12 +570,16 @@
 				<integer>200</integer>
 				<key>Replace</key>
 				<data>6AAA//8xwJCQkJCQ</data>
+				<key>Skip</key>
+				<integer>0</integer>
 				<key>StartPattern</key>
 				<data>ACnHeAAx241H+oM=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Monterey RDRAND instruction #1</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -514,10 +592,14 @@
 				<integer>3900</integer>
 				<key>Replace</key>
 				<data>McmQkJAh8TnRc/WJyUiLlM3Q/f//</data>
+				<key>Skip</key>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Monterey RDRAND instruction #2</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -530,6 +612,8 @@
 				<integer>10100</integer>
 				<key>Replace</key>
 				<data>MdKQkJCD4g+D+gd38w+3NEE=</data>
+				<key>Skip</key>
+				<integer>0</integer>
 			</dict>
 		</array>
 		<key>KernelXCPM</key>
@@ -662,6 +746,8 @@
 		<integer>0</integer>
 		<key>RebuildAppleMemoryMap</key>
 		<true/>
+		<key>ResizeAppleGpuBars</key>
+		<integer>-1</integer>
 		<key>SetupVirtualMap</key>
 		<true/>
 		<key>SignalAppleOS</key>
