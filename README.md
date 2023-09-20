@@ -5,7 +5,7 @@
 ## 修改内容
 
 - 升级到 Clover 5155
-- 添加主题 blackbc、Clover Bootcamp
+- 添加 blackbc、Clover Bootcamp 主题
 - 修改默认主题为 blackbc
 
 ## 部分硬件
