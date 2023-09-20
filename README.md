@@ -1,6 +1,6 @@
 # 微星 GF75 Thin 8RD 黑苹果 Clover EFI
 
-基于 [Dimon70007](https://github.com/Dimon70007) 的项目修改，可启动 MacOS Monterey，附有 [MacOS 安装教程](https://1doublehelix.github.io/msi-gf75-hackintosh.html)
+基于 [Dimon70007](https://github.com/Dimon70007) 的项目修改，可启动 MacOS Ventura，附有 [MacOS 安装教程](https://1doublehelix.github.io/msi-gf75-hackintosh.html)
 
 ## 修改内容
 
@@ -23,6 +23,7 @@
 - Intel UHD 630
 - HDMI 仅视频
 - 英特尔无线网卡
+- 瑞昱有线网卡（RJ45）
 - 有线麦克风和耳机
 - 显示器亮度调整
 - 电池信息
