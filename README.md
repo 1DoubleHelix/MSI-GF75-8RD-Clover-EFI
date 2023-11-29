@@ -1,10 +1,10 @@
 # 微星 GF75 Thin 8RD 黑苹果 Clover EFI
 
-基于 [Dimon70007](https://github.com/Dimon70007) 的项目修改，可启动 MacOS Ventura，附有 [MacOS 安装教程](https://1doublehelix.github.io/msi-gf75-hackintosh.html)
+基于 [Dimon70007](https://github.com/Dimon70007) 的项目修改，可启动 MacOS Ventura（13.4 以上），附有 [MacOS 安装教程](https://1doublehelix.github.io/msi-gf75-hackintosh.html)
 
 ## 修改内容
 
-- 升级到 Clover 5155
+- 升级到 Clover 5156
 - 添加 blackbc、Clover Bootcamp 主题
 - 修改默认主题为 blackbc
 
@@ -37,5 +37,3 @@
 - NVIDIA 独显不工作
 - 无法从三星 980 SSD 启动 Clover
 - Type C 端口仅在 USB 3.0 速度下工作
-
-复制到硬盘上的 EFI 文件夹之前，建议先在 U 盘上进行测试

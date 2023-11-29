@@ -252,7 +252,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -v agdpmod=vit9696 -igfxblr</string>
+		<string>dart=0 nv_disable=1 -v agdpmod=vit9696 -igfxblt -igfxbls</string>
 		<key>DefaultVolume</key>
 		<string>s860Preboot</string>
 		<key>NeverHibernate</key>
