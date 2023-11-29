@@ -2,12 +2,6 @@
 
 基于 [Dimon70007](https://github.com/Dimon70007) 的项目修改，可启动 MacOS Ventura（13.4 以上），附有 [MacOS 安装教程](https://1doublehelix.github.io/msi-gf75-hackintosh.html)
 
-## 修改内容
-
-- 升级到 Clover 5156
-- 添加 blackbc、Clover Bootcamp 主题
-- 修改默认主题为 blackbc
-
 ## 部分硬件
 
 - Intel Core i5-8300H
