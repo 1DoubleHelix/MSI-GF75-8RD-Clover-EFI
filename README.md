@@ -2,7 +2,12 @@
 
 基于 [Dimon70007](https://github.com/Dimon70007) 的项目修改
 
-已支持 MacOS Sonoma，附有 [MacOS 安装教程](https://1doublehelix.github.io/msi-gf75-hackintosh.html)，旧版 MacOS 请到 [release](https://github.com/1DoubleHelix/MSI-GF75-8RD-Clover-EFI/releases) 下载
+已支持 MacOS Sonoma 14.4，附有 [MacOS 安装教程](https://1doublehelix.github.io/msi-gf75-hackintosh.html)，旧版 MacOS 请到 [release](https://github.com/1DoubleHelix/MSI-GF75-8RD-Clover-EFI/releases) 下载
+
+## 重要提示
+
+- 理论上本项目的 EFI 可以启动 BigSur 到 Sonoma 14.4 的所有版本，但是需要替换 `Clover/kexts/Other/AirportItlwm.kext` 为对应版本的 kext，具体请参考 [OpenIntelWireless/itlwm/releases](https://github.com/OpenIntelWireless/itlwm/releases) 下载对应版本的 kext，目前需要使用 alpha 版本的 kext
+- 本项目即将存档，不再更新
 
 ## 部分硬件
 
